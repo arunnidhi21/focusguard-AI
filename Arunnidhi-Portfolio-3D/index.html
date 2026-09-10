@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Arunnidhi — 3D animated engineering portfolio">
+<title>Arunnidhi — 3D Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="space" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<header>
+  <a class="brand" href="#home">ARUNNIDHI<span>.</span></a>
+  <nav aria-label="Primary">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="top-btn" href="https://github.com/arunnidhi21" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+</header>
+
+<main id="main">
+<section id="home" class="hero">
+  <div class="hero-copy reveal">
+    <div class="pill"><i></i> ENGINEERING STUDENT · BUILDER</div>
+    <p class="eyebrow">SOFTWARE / MACHINE LEARNING / WEB</p>
+    <h1>Ideas become <span>interactive.</span></h1>
+    <p class="sub">I'm Arunnidhi. I build practical projects, learn through experiments, and turn concepts into working experiences.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore my work ↓</a>
+      <a class="btn" href="https://www.linkedin.com/in/arunnidhi-k-a-926b68395/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+    </div>
+    <div class="scroll-note">MOVE YOUR CURSOR · THE SCENE RESPONDS</div>
+  </div>
+
+  <div class="scene" id="scene" aria-label="Interactive 3D portfolio scene">
+    <div class="stars"></div>
+    <div class="grid-floor"></div>
+    <div class="cube">
+      <div class="face front">FG</div><div class="face back">AI</div>
+      <div class="face right">ML</div><div class="face left">01</div>
+      <div class="face top">PY</div><div class="face bottom">CODE</div>
+    </div>
+    <div class="sat sat-a">PY</div><div class="sat sat-b">SQL</div><div class="sat sat-c">WEB</div>
+    <div class="scene-label label-a">FOCUSGUARD AI</div>
+    <div class="scene-label label-b">BUILD / TEST / IMPROVE</div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-title reveal"><small>01</small><div><p class="eyebrow">ABOUT</p><h2>Learning by <span>building.</span></h2></div></div>
+  <div class="about-layout">
+    <article class="glass reveal"><p class="big">I enjoy taking an idea from a rough thought to a working piece of software.</p><p>My projects sit around engineering, machine learning, data and interfaces. I care about understanding the system underneath the UI, not just making something look good.</p></article>
+    <div class="tilt-card reveal" data-tilt>
+      <div class="tilt-inner"><span>ARUNNIDHI</span><strong>ENGINEERING</strong><small>CURIOUS · PRACTICAL · ITERATIVE</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-title reveal"><small>02</small><div><p class="eyebrow">TOOLKIT</p><h2>Built around <span>curiosity.</span></h2></div></div>
+  <div class="skill-ring-wrap reveal">
+    <div class="skill-ring">
+      <div class="ring-label">SKILLS</div>
+      <span class="node n1">PYTHON</span><span class="node n2">ML</span><span class="node n3">SQL</span>
+      <span class="node n4">WEB</span><span class="node n5">GIT</span><span class="node n6">SCIKIT</span>
+    </div>
+    <div class="skill-copy">
+      <div><b>Python</b><span>Programming & automation</span></div>
+      <div><b>Machine Learning</b><span>Classification & evaluation</span></div>
+      <div><b>Scikit-learn</b><span>Training & model workflows</span></div>
+      <div><b>SQL</b><span>Data & databases</span></div>
+      <div><b>HTML / CSS / JS</b><span>Responsive web interfaces</span></div>
+      <div><b>Git / GitHub</b><span>Version control & sharing</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-title reveal"><small>03</small><div><p class="eyebrow">SELECTED WORK</p><h2>One project. <span>Deeply built.</span></h2></div></div>
+  <article class="project reveal">
+    <div class="project-copy">
+      <p class="project-kicker">FEATURED · 01</p>
+      <h3>FocusGuard <span>AI</span></h3>
+      <p>A machine-learning application that predicts whether an Instagram session is likely intentional or habitual using behavioural and contextual signals.</p>
+      <div class="tags"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span><span>Tkinter</span></div>
+      <a class="btn primary" href="https://github.com/arunnidhi21" target="_blank" rel="noopener noreferrer">View GitHub ↗</a>
+    </div>
+    <div class="holo">
+      <div class="holo-card">
+        <div class="holo-top"><span>FOCUSGUARD</span><i>●</i></div>
+        <div class="holo-core"><b>AI</b><small>MODEL READY</small></div>
+        <div class="holo-stat"><span>CV ACCURACY</span><strong>66.6%</strong></div>
+        <div class="holo-bar"><i></i></div>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="contact-orb" aria-hidden="true"><span></span></div>
+  <div class="contact-content reveal">
+    <p class="eyebrow">04 / CONTACT</p><h2>Let's build something <span>useful.</span></h2>
+    <p>Explore my work or connect with me through GitHub, LinkedIn or email.</p>
+    <div class="actions"><a class="btn primary" href="mailto:arunnidhi21@gmail.com">Email me ↗</a><a class="btn" href="https://github.com/arunnidhi21" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="btn" href="https://www.linkedin.com/in/arunnidhi-k-a-926b68395/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 Arunnidhi</span><span>3D portfolio · built with HTML, CSS & JS</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
